@@ -1,12 +1,13 @@
+all: copy-less-files copy-assets
+
 include ../../build/modules.mk
 
 MODULE = font-awesome
 DESTINATION = ${STYLES_DIR}/${MODULE}
 
-all:
-	rm -fr ${DESTINATION}
-	mkdir -p ${DESTINATION}
-	cp less/font-awesome.less ${DESTINATION}/default.less
-	cp less/font-awesome-ie7.less ${DESTINATION}/ie7.less
-	mkdir -p ${DESTINATION}/font
-	cp font/* ${DESTINATION}/font
+SOURCE_ASSET_FILES = font/*
+TARGET_ASSET_FOLDER_NAME = font
+
+copy-less-files: create-style-folder
+	cp less/font-awesome.less ${TARGET_STYLE_FOLDER}/default.less
+	cp less/font-awesome-ie7.less ${TARGET_STYLE_FOLDER}/ie7.less

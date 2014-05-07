@@ -12,6 +12,6 @@ copy-less-files: create-style-folder
 	cp -Rp less/*.less ${TARGET_STYLE_FOLDER}
 
 	# variables.less
-	cat ${TARGET_STYLE_FOLDER}/variables.less | sed 's/..\/fonts\//\@\{global_uri\}\/font-awesome\/fonts\//g' > ${TARGET_STYLE_FOLDER}/variables.raw
+	cat ${TARGET_STYLE_FOLDER}/variables.less | sed 's/..\/fonts/\@\{global_uri\}\/font-awesome\/fonts/g' > ${TARGET_STYLE_FOLDER}/variables.raw
 	rm -fr ${TARGET_STYLE_FOLDER}/variables.less
 	mv ${TARGET_STYLE_FOLDER}/variables.raw ${TARGET_STYLE_FOLDER}/variables.less

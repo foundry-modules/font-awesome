@@ -1,7 +1,7 @@
-#[Font Awesome v4.0.3](http://fontawesome.io)
-###the iconic font designed for Bootstrap
+#[Font Awesome v4.1.0](http://fontawesome.io)
+###The iconic font and CSS framework
 
-Font Awesome is a full suite of 369 pictographic icons for easy scalable vector graphics on websites, created and
+Font Awesome is a full suite of 439 pictographic icons for easy scalable vector graphics on websites, created and
 maintained by [Dave Gandy](http://twitter.com/davegandy). Stay up to date [@fontawesome](http://twitter.com/fontawesome).
 
 Get started at http://fontawesome.io!
@@ -29,6 +29,11 @@ Get started at http://fontawesome.io!
 - [v4.0.1 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=7&page=1&state=closed)
 - [v4.0.2 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=8&page=1&state=closed)
 - [v4.0.3 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=9&page=1&state=closed)
+- [v4.1.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=6&page=1&state=closed)
+
+## Contributing
+
+Please read through our [contributing guidelines](https://github.com/FortAwesome/Font-Awesome/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 ##Versioning
 
@@ -48,7 +53,6 @@ For more information on SemVer, please visit http://semver.org.
 - Email: dave@fontawesome.io
 - Twitter: http://twitter.com/davegandy
 - GitHub: https://github.com/davegandy
-- Work: Lead Product Designer @ http://kyru.us
 
 ##Component
 To include as a [component](http://github.com/component/component), just run
